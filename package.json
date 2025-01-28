@@ -1,1 +1,30 @@
+{
+  "dependencies": {
+    "@accateo/from_dec_to_hex": "^1.0.1",
+    "axios": "^1.7.9",
+    "base-58": "^0.0.1",
+    "binstring": "^0.2.1",
+    "bip32": "^5.0.0-rc.0",
+    "bitcoinjs-lib": "^6.1.7",
+    "bs58check": "^4.0.0",
+    "cheerio": "^1.0.0",
+    "coininfo": "^5.2.1",
+    "coinkey": "^3.0.0",
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "csv-parser": "^3.1.0",
+    "eckey": "^1.0.2",
+    "ecpair": "^3.0.0-rc.0",
+    "fast-csv": "^5.0.2",
+    "hex2dec": "^1.1.2",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "secure-random": "^1.1.2",
+    "sha256": "^0.2.0",
+    "sync-mysql": "^3.0.1",
+    "sync-request": "^6.1.0",
+    "wif": "^5.0.0"
+  }
+}
 
