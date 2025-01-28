@@ -6,7 +6,13 @@ var CoinKey = require('coinkey');
 const fs = require('fs');
 const args = process.argv;
 
-function main(args[2]) {
+
+let startF = args[2];
+
+main(startF);
+
+
+function main(startFrom) {
     // Initialise big numbers with small numbers
 	try {
 		let count = BigInt(startFrom);
@@ -40,6 +46,6 @@ function main(args[2]) {
 		console.log(error);
 	}
 }
-main();
+
 
 //1175 -> KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qYjgd9M7rFU7fj3itoEY,1JYHzX3ndZEcnjrWSQ9VC7324TJ9BAoGy4
